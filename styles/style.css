@@ -1086,7 +1086,7 @@ footer .down a:hover {
   margin-top: 4rem;
 }
 .course .course-section {
-  background-image: url('../images/gd/academy.jpg');
+  background-image: url('images/gd/academy.jpg');
   background-size: cover;
   border-radius: 1rem;
   padding: 3rem 0;
