@@ -457,6 +457,7 @@ header .right {
 .table .left {
   flex: 6.2;
   padding: 0 2rem;
+  justify-content: left;
 }
 .table .right {
   flex: 3.8;
