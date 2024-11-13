@@ -46,10 +46,17 @@ class Tier extends Product{
 }
 
 export const products = [{
+  id: 'a6e37f7f-9826-433a-a405-93324ba4ce2e',
+  image:'../images/vehicle/hyper/veh19.png',
+  name: 'Rolls Royce Phantom',
+  price: 2999 / 100,
+  rent: 699 / 100,
+  type: 'Hyper'
+}, {
   id: 'e0f223c5-0b28-464b-8f06-716380949e58',
   image:'../images/vehicle/hyper/veh1.png',
   name: 'Bugatti Bolide',
-  price: 2999 / 100,
+  price: 2499 / 100,
   rent: 999 / 100,
   type: 'Hyper'
 }, {
@@ -67,13 +74,6 @@ export const products = [{
   rent: 899 / 100,
   type: 'Hyper'
 }, {
-  id: 'd6ebfb2e-60fa-42ba-8345-8e2e28d4a2e5',
-  image:'../images/vehicle/hyper/veh3.png',
-  name: 'Ferrari F150 LaFerrari',
-  price: 1999 / 100,
-  rent: 799 / 100,
-  type: 'Hyper'
-}, {
   id: '9253e138-3161-491d-851d-b20699315503',
   image:'../images/vehicle/hyper/veh8.png',
   name: 'Mclaren Senna',
@@ -81,11 +81,39 @@ export const products = [{
   rent: 699 / 100,
   type: 'Hyper'
 }, {
-  id: 'db72fefe-7b38-4c5b-aa9c-bf57b5fc7130',
-  image:'../images/vehicle/super/veh19.png',
-  name: 'Lamborghini Aventador LP700',
-  price: 1499 / 100,
-  rent: 599 / 100,
+  id: '3039e226-3026-41f5-bf79-6dc6519ab24a',
+  image:'../images/vehicle/hyper/veh15.png',
+  name: 'Mclaren Speedtail',
+  price: 1999 / 100,
+  rent: 699 / 100,
+  type: 'Hyper'
+}, {
+  id: 'd6ebfb2e-60fa-42ba-8345-8e2e28d4a2e5',
+  image:'../images/vehicle/super/veh3.png',
+  name: 'Ferrari F150 LaFerrari',
+  price: 1999 / 100,
+  rent: 799 / 100,
+  type: 'Super'
+}, {
+  id: '7c5672c4-34b4-4945-8483-755845e81ee2',
+  image:'../images/vehicle/super/veh11.png',
+  name: 'Lamborghini Aventador LP 700-4',
+  price: 1999 / 100,
+  rent: 699 / 100,
+  type: 'Super'
+}, {
+  id: 'abcb3a7b-b71d-4745-9634-c1d08d9f679a',
+  image:'../images/vehicle/super/veh17.png',
+  name: 'Lamborghini Aventador SVJ 63',
+  price: 1999 / 100,
+  rent: 699 / 100,
+  type: 'Super'
+}, {
+  id: '4dea6305-7fd8-4dcf-b693-30bb2033fee7',
+  image:'../images/vehicle/super/veh21.png',
+  name: 'Ferrari FXX-K',
+  price: 1999 / 100,
+  rent: 699 / 100,
   type: 'Super'
 },  {
   id: 'f176c05c-b59a-498a-b0df-7bdd87651bd0',
@@ -123,13 +151,6 @@ export const products = [{
   rent: 499 / 100,
   type: 'Super'
 },  {
-  id: 'fbd86ada-408d-46cb-ad09-27c9df2609ce',
-  image:'../images/vehicle/super/veh23.png',
-  name: 'Mercedes Benz-AMG GT Black Series',
-  price: 1499 / 100,
-  rent: 499 / 100,
-  type: 'Super'
-},  {
   id: 'a485771c-3547-45f9-bdd9-cef6e075b637',
   image:'../images/vehicle/super/veh17.png',
   name: 'Lamborghini Huracan',
@@ -158,20 +179,6 @@ export const products = [{
   rent: 199 / 100,
   type: 'Sport'
 },  {
-  id: 'f95e5ed7-5823-4301-b581-3e6795b63a74',
-  image:'../images/vehicle/sport/veh53.png',
-  name: 'Porsche Panamera Turbo',
-  price: 999 / 100,
-  rent: 199 / 100,
-  type: 'Sport'
-},  {
-  id: '28da33b5-8628-46cc-a1fe-1f8be2e8e798',
-  image:'../images/vehicle/sport/veh31.png',
-  name: 'Ford GT',
-  price: 999 / 100,
-  rent: 199 / 100,
-  type: 'Sport'
-},  {
   id: 'de27e082-0799-45bb-9de9-cbfb48af4976',
   image:'../images/vehicle/sport/veh43.png',
   name: 'Mercedes Benz-AMG GT63 S',
@@ -179,82 +186,110 @@ export const products = [{
   rent: 199 / 100,
   type: 'Sport'
 },  {
+  id: 'db72fefe-7b38-4c5b-aa9c-bf57b5fc7130',
+  image:'../images/vehicle/super/veh19.png',
+  name: 'Lamborghini Aventador LP700',
+  price: 1499 / 100,
+  rent: 599 / 100,
+  type: 'نفذت الكمية'
+},  {
+  id: 'fbd86ada-408d-46cb-ad09-27c9df2609ce',
+  image:'../images/vehicle/super/veh23.png',
+  name: 'Mercedes Benz-AMG GT Black Series',
+  price: 1499 / 100,
+  rent: 499 / 100,
+  type: 'نفذت الكمية'
+},{
+  id: 'f95e5ed7-5823-4301-b581-3e6795b63a74',
+  image:'../images/vehicle/sport/veh53.png',
+  name: 'Porsche Panamera Turbo',
+  price: 999 / 100,
+  rent: 199 / 100,
+  type: 'نفذت الكمية'
+},  {
+  id: '28da33b5-8628-46cc-a1fe-1f8be2e8e798',
+  image:'../images/vehicle/sport/veh31.png',
+  name: 'Ford GT',
+  price: 999 / 100,
+  rent: 199 / 100,
+  type: 'نفذت الكمية'
+},  {
   id: '3d510307-e4cc-40cc-b74a-3c968327116f',
   image:'../images/vehicle/sport/veh33.png"',
   name: 'Ford Mustang',
   price: 999 / 100,
   rent: 199 / 100,
-  type: 'Sport'
+  type: 'نفذت الكمية'
 },  {
   id: '95453e16-6691-405a-bb73-ca52b7e69f87',
   image:'../images/vehicle/sport/veh45.png',
   name: 'Nissan GTR',
   price: 999 / 100,
   rent: 199 / 100,
-  type: 'Sport'
+  type: 'نفذت الكمية'
 },  {
   id: '7b73a46c-8d7a-4d98-8447-c6bd80c14a78',
   image:'../images/vehicle/sport/veh35.png',
   name: 'Lexus LFA',
   price: 999 / 100,
   rent: 199 / 100,
-  type: 'Sport'
+  type: 'نفذت الكمية'
 },  {
   id: '823c67cb-07f4-47e8-af6d-096e984de1d3',
   image:'../images/vehicle/sport/veh37.png',
   name: 'Maseratti Gran Turismo LW',
   price: 999 / 100,
   rent: 199 / 100,
-  type: 'Sport'
+  type: 'نفذت الكمية'
 },  {
   id: '07ce2c60-2584-4b09-b877-da6a6d2f855b',
   image:'../images/vehicle/sport/veh29.png',
   name: 'Chevrolet Camaro ZL1 Hennessey',
   price: 999 / 100,
   rent: 199 / 100,
-  type: 'Sport'
+  type: 'نفذت الكمية'
 },  {
   id: '14c13f08-2163-4b1a-b003-e1f970cfea93',
   image:'../images/vehicle/sport/veh47.png',
   name: 'Toyota Supra A90',
   price: 999 / 100,
   rent: 199 / 100,
-  type: 'Sport'
+  type: 'نفذت الكمية'
 },  {
   id: 'fdb34ba7-1d89-4724-8e48-9b7394ec78c0',
   image:'../images/vehicle/sport/veh49.png',
   name: 'Brabham BT62R',
   price: 999 / 100,
   rent: 199 / 100,
-  type: 'Sport'
+  type: 'نفذت الكمية'
 },  {
   id: '29c16634-6102-4dd2-9fa7-287a93d58d21',
   image:'../images/vehicle/sport/veh39.png',
   name: 'Mazda RX7',
   price: 999 / 100,
   rent: 199 / 100,
-  type: 'Sport'
+  type: 'نفذت الكمية'
 },  {
   id: 'ccd353b2-2156-4126-811d-974bda5f8c24',
   image:'../images/vehicle/other/veh59.png',
   name: 'Polestar 1',
   price: 499 / 100,
   rent: 99 / 100,
-  type: 'Sedan'
+  type: 'نفذت الكمية'
 },  {
   id: '1149a429-1f33-42b8-926b-9c2745444767',
   image:'../images/vehicle/other/veh55.png',
   name: 'Cadillac Escalade',
   price: 499 / 100,
   rent: 99 / 100,
-  type: 'SUV'
+  type: 'نفذت الكمية'
 },  {
   id: '04d9d162-db0c-4182-ad65-272bfa69064a',
   image:'../images/vehicle/other/veh57.png',
   name: 'Range Rover',
   price: 499 / 100,
   rent: 99 / 100,
-  type: 'SUV'
+  type: 'نفذت الكمية'
 }].map((productDetails) => {
   if(productDetails.type) {
     return new Tier(productDetails)
