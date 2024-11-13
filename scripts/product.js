@@ -47,8 +47,8 @@ class Tier extends Product{
 
 export const products = [{
   id: 'a6e37f7f-9826-433a-a405-93324ba4ce2e',
-  image:'../images/vehicle/hyper/veh19.png',
-  name: 'Rolls Royce Phantom',
+  image:'../images/vehicle/hyper/veh13.png',
+  name: 'Rolls Royce Wraith',
   price: 2999 / 100,
   rent: 699 / 100,
   type: 'Hyper'
@@ -85,6 +85,13 @@ export const products = [{
   image:'../images/vehicle/hyper/veh15.png',
   name: 'Mclaren Speedtail',
   price: 1999 / 100,
+  rent: 699 / 100,
+  type: 'Hyper'
+}, {
+  id: 'a6e37f7f-9826-433a-a405-93324ba4ce2e',
+  image:'../images/vehicle/hyper/veh19.png',
+  name: 'Rolls Royce Phantom',
+  price: 2999 / 100,
   rent: 699 / 100,
   type: 'Hyper'
 }, {
