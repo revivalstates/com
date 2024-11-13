@@ -50,7 +50,7 @@ export const products = [{
   image:'../images/vehicle/hyper/veh13.png',
   name: 'Rolls Royce Wraith',
   price: 2999 / 100,
-  rent: 699 / 100,
+  rent: 1499 / 100,
   type: 'Hyper'
 }, {
   id: 'e0f223c5-0b28-464b-8f06-716380949e58',
@@ -78,28 +78,28 @@ export const products = [{
   image:'../images/vehicle/hyper/veh8.png',
   name: 'Mclaren Senna',
   price: 1999 / 100,
-  rent: 699 / 100,
+  rent: 799 / 100,
   type: 'Hyper'
 }, {
   id: '3039e226-3026-41f5-bf79-6dc6519ab24a',
   image:'../images/vehicle/hyper/veh15.png',
   name: 'Mclaren Speedtail',
   price: 1999 / 100,
-  rent: 699 / 100,
+  rent: 799 / 100,
   type: 'Hyper'
 }, {
   id: 'a6e37f7f-9826-433a-a405-93324ba4ce2e',
   image:'../images/vehicle/hyper/veh19.png',
   name: 'Rolls Royce Phantom',
   price: 1999 / 100,
-  rent: 699 / 100,
+  rent: 799 / 100,
   type: 'Hyper'
 }, {
   id: 'd6ebfb2e-60fa-42ba-8345-8e2e28d4a2e5',
   image:'../images/vehicle/super/veh3.png',
   name: 'Ferrari F150 LaFerrari',
   price: 1999 / 100,
-  rent: 799 / 100,
+  rent: 699 / 100,
   type: 'Super'
 }, {
   id: '7c5672c4-34b4-4945-8483-755845e81ee2',
