@@ -36,7 +36,7 @@
 }
 
 body {
-  background-color: var(--accent1);
+  background-image: url(../images/revivalcfw.mp4) ;
   color: white;
   font-family: var(--font);
   margin: 0;
@@ -71,9 +71,6 @@ section {
 a {
   text-decoration: none;
   color: white;
-}
-.dash {
-  background-image: url(../images/revivalcfw.mp4);
 }
 .dash header {
   font-family: var(--font);
