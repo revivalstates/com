@@ -37,6 +37,7 @@
 
 body {
   background-color: var(--accent1);
+  background-image: url(../images/revivalcfw.mp4);
   color: white;
   font-family: var(--font);
   margin: 0;
