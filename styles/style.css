@@ -403,6 +403,8 @@ header .right {
   font-size: var(--xl);
   gap: 1vw;
   flex: 2;
+}
+.store-container a {
   transition: all 0.5s ease-in-out;
 }
 .store-container a:hover {
