@@ -239,7 +239,7 @@ header .right {
   flex: 2;
 }
 .store-main {
-  height: 43vh;
+  height: 43.5vh;
   display: flex;
   justify-content: center;
   align-items: center;
