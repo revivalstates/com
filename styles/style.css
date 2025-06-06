@@ -242,7 +242,7 @@ header .right {
   flex: 2;
 }
 .store-main {
-  height: 100%;
+  margin: 20vh 0;
   display: flex;
   justify-content: center;
   align-items: center;
