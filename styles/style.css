@@ -239,7 +239,7 @@ header .right {
   flex: 2;
 }
 .store-main {
-  height: 40vh;
+  height: 43vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -405,7 +405,7 @@ header .right {
   flex: 2;
 }
 .store-container a {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .store-container a:hover {
   color: var(--dominant2);
