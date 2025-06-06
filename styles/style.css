@@ -401,7 +401,7 @@ header .right {
   justify-content: center;
   align-items: center;
   font-size: var(--xl);
-  gap: 1vw;
+  gap: 4vw;
   flex: 2;
 }
 .store-container a {
