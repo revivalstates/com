@@ -411,6 +411,7 @@ header .right {
   color: var(--dominant2);
   font-size: var(--xxl);
   text-shadow: 0 0 1rem var(--dominant2);
+  letter-spacing: 5px
 }
 .item-body .item-section {
   display: flex;
