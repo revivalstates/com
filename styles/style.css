@@ -209,9 +209,6 @@ header .right {
   color: var(--denied2);
   border: 1px solid var(--accent1);
 }
-.dash .store-container {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
 .store-nav {
   display: flex;
   background-color: var(--accent3);
@@ -403,13 +400,15 @@ header .right {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: var(--m);
+  font-size: var(--xl);
   gap: 1vw;
   flex: 2;
-  background-color: var(--accent3);
+  transition: all 0.5s ease-in-out;
 }
 .store-container a:hover {
   color: var(--dominant2);
+  font-size: var(--xxl);
+  text-shadow: 0 0 1rem var(--dominant2);
 }
 .item-body .item-section {
   display: flex;
