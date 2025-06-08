@@ -394,7 +394,7 @@ header .right {
   transform: none;
   border-radius: 0.5vh;
 }
-.store-container {
+.store-container, .store-header {
   width: min(100%, 100%);
   display: flex;
   flex-direction: row;
@@ -404,8 +404,13 @@ header .right {
   gap: 4vw;
   flex: 2;
 }
-.store-container a {
+.store-container a, .store-header a {
   transition: all 0.3s ease-in-out;
+}
+.store-header a:hover {
+  color: var(--dominant2);
+  text-shadow: 0 0 1rem var(--dominant2);
+  letter-spacing: 5px
 }
 .store-container a:hover {
   color: var(--dominant2);
