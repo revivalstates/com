@@ -410,7 +410,6 @@ header .right {
 .store-header a:hover {
   color: var(--dominant2);
   text-shadow: 0 0 1rem var(--dominant2);
-  letter-spacing: 5px
 }
 .store-container a:hover {
   color: var(--dominant2);
