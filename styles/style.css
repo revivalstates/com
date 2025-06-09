@@ -977,7 +977,8 @@ footer .down a:hover {
 .apply-section .box {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   width: min(100%, 100%);
   gap: 2vw;
 }
