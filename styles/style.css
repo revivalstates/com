@@ -635,6 +635,7 @@ footer .down a:hover {
   border-radius: 1vh;
   cursor: pointer;
   transform: scale(1.1, 1);
+  -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0,  0, 0.11));
 }
 
 .index-section2 {
@@ -1265,7 +1266,6 @@ footer .down a:hover {
 }
 .course .lesson3 {
   display: grid;
-  max-width: 80%;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
 }
