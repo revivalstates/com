@@ -1267,7 +1267,7 @@ footer .down a:hover {
 }
 .course .lesson3 {
   display: grid;
-  max-width: 90%;
+  max-width: 80%;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
 }
