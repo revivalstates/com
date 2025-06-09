@@ -1012,9 +1012,10 @@ footer .down a:hover {
   flex-direction: row;
   gap: 1vw;
 }
-.apply-section a {
-/*   background-color: var(--accent2);
+.apply-section a::before {
+  /*   background-color: var(--accent2);
   color: var(--secondary1); */
+  content: "التقديم";
   background-color: var(--denied);
   color: var(--denied2);
   font-size: var(--m);
@@ -1028,8 +1029,9 @@ footer .down a:hover {
   transition: all 0.2s ease-in-out;
   cursor: not-allowed;
 }
-.apply-section a:hover {
+.apply-section a::before:hover {
 /*   transform: scale(1.1, 1.1); */
+  content: "غير متوفر";
   background-color: var(--denied1);
 }
 .apply-section .btn {
@@ -1087,9 +1089,6 @@ footer .down a:hover {
   background-repeat: no-repeat;
   background-position: center;
 }
-.course .lesson3-section {
-  margin-top: 4rem;
-}
 .course .course-section {
   background-size: cover;
   border-radius: 1rem;
@@ -1103,14 +1102,14 @@ footer .down a:hover {
   radial-gradient(ellipse 60% 25% at 50% 100%, var(--dominant4), var(--accent1));
 }
 .course .lesson3-section {
+  max-width: 80%;
+  margin-top: 4rem;
+  padding-bottom: 5rem;
   background: 
   radial-gradient(ellipse 100% 10% at 50% 10%, var(--primary3), transparent),
   radial-gradient(ellipse 60% 10% at 50% 40%, var(--dominant2),transparent),
   radial-gradient(ellipse 60% 10% at 50% 65%, var(--dominant1),transparent),
   radial-gradient(ellipse 60% 25% at 50% 100%, var(--dominant4), var(--accent1));
-}
-.course .lesson3-section {
-  padding-bottom: 5rem;
 }
 .course .course-section article, .course .lesson1 article {
   backdrop-filter: blur(1rem);
