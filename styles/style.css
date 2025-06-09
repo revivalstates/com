@@ -1012,10 +1012,9 @@ footer .down a:hover {
   flex-direction: row;
   gap: 1vw;
 }
-.apply-section a::before {
+.apply-section a {
   /*   background-color: var(--accent2);
   color: var(--secondary1); */
-  content: "التقديم";
   background-color: var(--denied);
   color: var(--denied2);
   font-size: var(--m);
@@ -1029,9 +1028,8 @@ footer .down a:hover {
   transition: all 0.2s ease-in-out;
   cursor: not-allowed;
 }
-.apply-section a::before:hover {
+.apply-section a:hover {
 /*   transform: scale(1.1, 1.1); */
-  content: "غير متوفر";
   background-color: var(--denied1);
 }
 .apply-section .btn {
